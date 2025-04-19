@@ -1,0 +1,17 @@
+.artists_container {
+  display: flex;
+  width: 200px;
+  height: 100px;
+  flex-direction: column;
+  border: 1px solid #00ffcc;
+  margin: 10px;
+  background-color: #000;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.artists_container p {
+  margin: 0;
+  color: #00ffcc;
+}

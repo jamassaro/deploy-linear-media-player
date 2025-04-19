@@ -1,0 +1,84 @@
+.app_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #16202a;
+}
+
+.app_wrapper {
+  width: 800px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app_wrapper h1 {
+  color: #00ffcc;
+}
+
+.player_controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.player_controls button {
+  background-color:  #16202a;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+.player_time {
+  background-color: #000;
+  padding: 8px;
+  border-radius: 4px;
+  width: 400px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #00ffcc;
+  border: 1px solid #00ffcc;
+}
+
+.player_time p {
+  margin: 0;
+}
+
+.artists_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.track_list_wrapper {
+  width: 500px;
+  height: 400px;
+  border: 1px solid #00ffcc;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+
+
+
+.track_name {
+  cursor: pointer;
+}
+
+.track_name:hover {
+  text-decoration: underline;
+  
+}
+
+.track_list_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
