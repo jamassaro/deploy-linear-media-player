@@ -2,16 +2,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
   background-color: #16202a;
+  
 }
 
 .app_wrapper {
   width: 800px;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .app_wrapper h1 {
